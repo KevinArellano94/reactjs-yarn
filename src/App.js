@@ -16,7 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> with KEVIN ARELLANO 2021
       </header>
     </div>
   );
