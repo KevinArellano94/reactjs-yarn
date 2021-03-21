@@ -8,8 +8,10 @@ import {
 
 //import logo from './logo.svg';
 import './App.css';
-import Home from "../src/pages/Home";
+
+import Home from "./pages/Home";
 import About from "./pages/About";
+//import Projects from "./pages/Projects" [ in ./page/Projects.js ]
 
 //import { Frame } from "framer";
 import {  motion } from 'framer-motion';
@@ -20,14 +22,23 @@ function App() {
       <Router>
         <header className="App-header">
 
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} >
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            >
             <Link to="/">Home</Link>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} >
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            >
             <Link to="/about">About</Link>
           </motion.div>
-          
+        </header>
+        <body>  
           <Switch>
 
             <Route exact path="/">
@@ -39,7 +50,7 @@ function App() {
             </Route>
              
           </Switch>
-        </header>
+        </body>
         <footer>
           <p>2021</p>
         </footer>

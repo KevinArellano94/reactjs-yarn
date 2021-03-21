@@ -5,12 +5,10 @@ function About() {
     return (
       <div style={{ color: "white" }}>
           
-          <p></p>
-          
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 4 }}
+            transition={{ duration: 1 }}
             >
             <p>
               Specialized in rapid deep learning and connection maker.
@@ -20,7 +18,7 @@ function About() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 15 }}
+            transition={{ duration: 2 }}
             >
             <p>
               Specialized in rapid deep learning and connection maker.
@@ -30,7 +28,7 @@ function About() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 21 }}
+            transition={{ duration: 3 }}
             >
             <p>
               Specialized in rapid deep learning and connection maker.
