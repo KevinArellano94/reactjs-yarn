@@ -37,8 +37,7 @@ function App() {
             >
             <Link to="/about">About</Link>
           </motion.div>
-        </header>
-        <body>  
+          
           <Switch>
 
             <Route exact path="/">
@@ -50,7 +49,7 @@ function App() {
             </Route>
              
           </Switch>
-        </body>
+        </header>
         <footer>
           <p>2021</p>
         </footer>
